@@ -1,20 +1,23 @@
 /**
  *
- * Base conversor to convert numbers to binaries or
+ * Base conversion to convert numbers to binaries or
  * binaries to numbers
  */
 
-function decimalToBinary(num) {
-  const base = 2;
+/**
+ *
+ * @param {Number} num decimal number
+ * @param {Number} base base number to convert (binary or octal)
+ */
+function decimalConversion(num, base = 2) {
   const binary = [];
-
   let numToDivide = num;
   let mod;
 
-  // Divide decimal
+  // Divide
   while (numToDivide > 1) {
     mod = numToDivide % base;
-    numToDivide = numToDivide / 2;
+    numToDivide = numToDivide / base;
 
     binary.push(mod);
   }
