@@ -2,7 +2,6 @@
  *
  * Base conversor to convert numbers to binaries or
  * binaries to numbers
-//  * @param {Number} b1 accept number from 0 to 1
  */
 
 function decimalToBinary(num) {
