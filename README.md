@@ -1,2 +1,2 @@
-# ufpr
-Algorithms of UFPR classes
+# UFPR - TADS
+Algorithms of UFPR classes and projects
