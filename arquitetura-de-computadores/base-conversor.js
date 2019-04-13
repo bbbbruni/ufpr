@@ -9,7 +9,7 @@
  * @param {Number} num decimal number
  * @param {Number} base base number to convert (binary or octal)
  */
-function decimalConversion(num, base = 2) {
+function decToBin(num, base = 2) {
   const binary = [];
   let numToDivide = num;
   let mod;

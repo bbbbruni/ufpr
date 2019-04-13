@@ -65,3 +65,12 @@ function XOR(b1, b2) {
 
   return 0;
 }
+
+export {
+  AND,
+  OR,
+  NOT,
+  NAND,
+  NOR,
+  XOR
+}
