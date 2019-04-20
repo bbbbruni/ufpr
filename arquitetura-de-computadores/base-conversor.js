@@ -95,8 +95,8 @@ function decToHex(hexNumber, base = 16) {
 
 /**
  * Decimal to hexadecimal
- * @param {Number} num decimal number
- * @param {Number} base base number to convert (binary or octal)
+ * @param {Number} num hexadecimal value
+ * @param {Number} base base number to convert
  */
 
 const numToHex = (num) => {
