@@ -1,8 +1,8 @@
 /**
  *
  * Logical operators methods
- * @param {Number} b1 accept number from 0 to 1
- * @param {Number} b2 accept number from 0 to 1
+ * @param {Number} b1 accept binary number
+ * @param {Number} b2 accept binary number
  */
 
 // AND operator
