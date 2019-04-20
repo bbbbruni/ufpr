@@ -1,4 +1,5 @@
 const pow = require('./pow');
+const logicalOperator = require('./logical-operators');
 
 /**
  *

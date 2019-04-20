@@ -66,7 +66,7 @@ function XOR(b1, b2) {
   return 0;
 }
 
-export {
+module.exports = {
   AND,
   OR,
   NOT,
