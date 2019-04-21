@@ -139,3 +139,11 @@ function decToHex(num, base = 16) {
 
   return hexResult;
 }
+
+module.exports = {
+  decToBin,
+  binToDec,
+  decToHex,
+  numToHex,
+  decToHex
+}
